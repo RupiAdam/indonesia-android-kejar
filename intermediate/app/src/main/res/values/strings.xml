@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Intermediate</string>
+    <string name="to_login">To Login</string>
+    <string name="to_simple_recyclerview">To Simple Recyclerview</string>
+    <string name="to_custom_recyclerview">To Custom Recyclerview</string>
+    <string name="title_activity_login">Login</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+</resources>
