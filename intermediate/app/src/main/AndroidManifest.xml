@@ -23,6 +23,11 @@
             android:name=".java.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".java.AddressListActivity"
+            android:label="List Address"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
