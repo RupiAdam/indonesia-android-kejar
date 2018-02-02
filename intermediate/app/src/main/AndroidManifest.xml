@@ -28,6 +28,11 @@
             android:name=".java.AddressListActivity"
             android:label="List Address"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".java.AddressDetailActivity"
+            android:label="Detail Address"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

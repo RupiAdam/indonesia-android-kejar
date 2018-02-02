@@ -7,4 +7,5 @@
     <string name="username">Username</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
+    <string name="buka_di_google_maps">Buka di google maps</string>
 </resources>

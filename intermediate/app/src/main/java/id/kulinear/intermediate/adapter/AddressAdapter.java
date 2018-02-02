@@ -1,6 +1,7 @@
 package id.kulinear.intermediate.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import id.kulinear.intermediate.R;
+import id.kulinear.intermediate.java.AddressDetailActivity;
 import id.kulinear.intermediate.object.AddressObject;
 
 /**
@@ -43,7 +45,11 @@ public class AddressAdapter extends RecyclerView.Adapter<AddressAdapter.ViewHold
         holder.parent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                selectedAddress = item;
+                context.startActivity(
+                        new Intent(context, AddressDetailActivity.class)
+                                .putExtra("address", item)
+                );
+
             }
         });
     }
